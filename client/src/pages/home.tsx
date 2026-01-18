@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import heroImage from "@assets/generated_images/clean_bright_school_gymnasium_basketball_court.png";
+import teamLogo from "@assets/nishita_logo_1768703900559.png";
 import { 
   MapPin, 
   Calendar, 
@@ -70,8 +71,12 @@ export default function Home() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border shadow-sm">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between max-w-6xl">
-          <div className="flex items-center gap-2">
-            {/* Logo placeholder - text based for simplicity/cleanliness */}
+          <div className="flex items-center gap-3">
+            <img 
+              src={teamLogo} 
+              alt="西田バスケットボールクラブ ロゴ" 
+              className="h-10 w-auto"
+            />
             <div className="flex flex-col">
               <h1 className="text-xl md:text-2xl font-bold text-primary tracking-tight leading-none">
                 西田バスケットボールクラブ
