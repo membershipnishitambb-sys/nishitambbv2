@@ -372,11 +372,11 @@ export default function Home() {
           
           <div className="space-y-4">
             <a 
-              href="mailto:nishita.mbb@gmail.com" 
+              href="mailto:ml_nishita_mbb@googlegroups.com" 
               className="block w-full bg-primary text-white font-bold py-4 rounded-xl hover:bg-primary/90 transition-all shadow-md flex items-center justify-center gap-2"
             >
               <Mail size={20} />
-              メールを送る (nishita.mbb@gmail.com)
+              メールを送る (ml_nishita_mbb@googlegroups.com)
             </a>
             
             <a 
