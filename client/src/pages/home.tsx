@@ -398,12 +398,87 @@ export default function Home() {
             </a>
 
             <a 
-              href="mailto:ml_nishita_mbb@googlegroups.com" 
+              href="#contact-form" 
+              onClick={(e) => {
+                e.preventDefault();
+                const element = document.querySelector("#contact-form");
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
               className="block w-full bg-primary text-white font-bold py-4 rounded-xl hover:bg-primary/90 transition-all shadow-md flex items-center justify-center gap-2"
             >
               <Mail size={20} />
-              メールを送る (ml_nishita_mbb@googlegroups.com)
+              メールを送る
             </a>
+          </div>
+
+          <div id="contact-form" className="mt-12 pt-12 border-t border-border text-left">
+            <h4 className="text-xl font-bold text-primary mb-6 text-center">お問い合わせフォーム</h4>
+            <form 
+              action="https://formsubmit.co/ml_nishita_mbb@googlegroups.com" 
+              method="POST"
+              className="space-y-4"
+            >
+              {/* FormSubmit configuration */}
+              <input type="hidden" name="_subject" value="西田バスケットボールクラブへのお問い合わせ" />
+              <input type="hidden" name="_next" value={window.location.href} />
+              
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <label htmlFor="name" className="text-sm font-medium">お名前</label>
+                  <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    required 
+                    className="w-full px-4 py-2 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/50" 
+                    placeholder="西田 太郎"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <label htmlFor="email" className="text-sm font-medium">メールアドレス</label>
+                  <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required 
+                    className="w-full px-4 py-2 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/50" 
+                    placeholder="your@email.com"
+                  />
+                </div>
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="category" className="text-sm font-medium">お問い合わせ項目</label>
+                <select 
+                  id="category" 
+                  name="category" 
+                  className="w-full px-4 py-2 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/50"
+                >
+                  <option>体験のお申し込み</option>
+                  <option>練習試合の依頼</option>
+                  <option>入部についてのご質問</option>
+                  <option>その他</option>
+                </select>
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="message" className="text-sm font-medium">内容</label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  rows={4} 
+                  required 
+                  className="w-full px-4 py-2 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/50" 
+                  placeholder="お問い合わせ内容をご記入ください"
+                ></textarea>
+              </div>
+              <button 
+                type="submit" 
+                className="w-full bg-primary text-white font-bold py-3 rounded-lg hover:bg-primary/90 transition-all shadow-md"
+              >
+                内容を送信する
+              </button>
+            </form>
           </div>
 
           <p className="text-xs text-muted-foreground mt-6">
