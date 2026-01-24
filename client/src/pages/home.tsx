@@ -12,7 +12,8 @@ import {
   Heart,
   Menu,
   X,
-  ExternalLink
+  ExternalLink,
+  MessageCircle
 } from "lucide-react";
 import { useState } from "react";
 
@@ -377,13 +378,15 @@ export default function Home() {
           
           <div className="space-y-4">
             <a 
-              href="mailto:ml_nishita_mbb@googlegroups.com" 
-              className="block w-full bg-primary text-white font-bold py-4 rounded-xl hover:bg-primary/90 transition-all shadow-md flex items-center justify-center gap-2"
+              href="https://lin.ee/Codpqu8" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full bg-[#06C755] text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all shadow-md flex items-center justify-center gap-2"
             >
-              <Mail size={20} />
-              メールを送る (ml_nishita_mbb@googlegroups.com)
+              <MessageCircle size={20} />
+              体験を申し込む (公式LINE)
             </a>
-            
+
             <a 
               href="https://docs.google.com/forms/d/e/1FAIpQLSdYpui0JOMc1VwNgrHsrTwog-0nIR_znQI60AkoxzFgnzByGg/viewform" 
               target="_blank"
@@ -392,6 +395,14 @@ export default function Home() {
             >
               <ExternalLink size={20} />
               入会申し込みフォーム
+            </a>
+
+            <a 
+              href="mailto:ml_nishita_mbb@googlegroups.com" 
+              className="block w-full bg-primary text-white font-bold py-4 rounded-xl hover:bg-primary/90 transition-all shadow-md flex items-center justify-center gap-2"
+            >
+              <Mail size={20} />
+              メールを送る (ml_nishita_mbb@googlegroups.com)
             </a>
           </div>
 
