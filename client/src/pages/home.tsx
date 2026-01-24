@@ -1,6 +1,6 @@
 import { useRef } from "react";
-import heroImage from "@assets/generated_images/clean_bright_school_gymnasium_basketball_court.png";
-import teamLogo from "@assets/nishita_logo_1768703900559.png";
+import heroImage from "@assets/IMG_1916_1769216828698.JPG";
+import teamLogo from "@assets/nishita_logo_1768706882993.png";
 import { 
   MapPin, 
   Calendar, 
