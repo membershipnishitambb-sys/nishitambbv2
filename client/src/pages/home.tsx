@@ -449,19 +449,6 @@ export default function Home() {
                 </div>
               </div>
               <div className="space-y-2">
-                <label htmlFor="category" className="text-sm font-medium">お問い合わせ項目</label>
-                <select 
-                  id="category" 
-                  name="category" 
-                  className="w-full px-4 py-2 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/50"
-                >
-                  <option>体験のお申し込み</option>
-                  <option>練習試合の依頼</option>
-                  <option>入部についてのご質問</option>
-                  <option>その他</option>
-                </select>
-              </div>
-              <div className="space-y-2">
                 <label htmlFor="message" className="text-sm font-medium">内容</label>
                 <textarea 
                   id="message" 
