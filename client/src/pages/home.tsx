@@ -397,6 +397,10 @@ export default function Home() {
               入会申し込みフォーム
             </a>
 
+            <p className="text-sm text-muted-foreground pt-2">
+              練習試合の依頼、その他ご質問等お気軽にお問い合わせください。
+            </p>
+
             <a 
               href="#contact-form" 
               onClick={(e) => {
