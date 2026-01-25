@@ -413,7 +413,7 @@ export default function Home() {
               className="block w-full bg-primary text-white font-bold py-4 rounded-xl hover:bg-primary/90 transition-all shadow-md flex items-center justify-center gap-2"
             >
               <Mail size={20} />
-              メールを送る
+              その他お問い合わせ
             </a>
           </div>
 
