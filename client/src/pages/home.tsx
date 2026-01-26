@@ -370,6 +370,24 @@ export default function Home() {
       </Section>
 
       {/* Contact Section */}
+      <section className="bg-white py-16 md:py-24 border-t border-border">
+        <div className="container mx-auto px-4 text-center max-w-4xl">
+          <div className="inline-block p-3 bg-primary/5 rounded-full text-primary mb-6">
+            <MessageCircleQuestion size={32} />
+          </div>
+          <h2 className="text-3xl font-bold text-primary mb-4">ご不明な点はありますか？</h2>
+          <p className="text-muted-foreground mb-8 text-lg">
+            入部に関するよくあるご質問をまとめています。お問い合わせの前にぜひご確認ください。
+          </p>
+          <Link 
+            href="/faq" 
+            className="inline-flex items-center gap-2 bg-white border-2 border-primary text-primary font-bold px-8 py-3 rounded-full hover:bg-primary hover:text-white transition-all shadow-sm"
+          >
+            よくあるご質問を見る <ChevronRight size={18} />
+          </Link>
+        </div>
+      </section>
+
       <Section id="contact" title="お問い合わせ" background="bg-primary/5">
         <div className="max-w-2xl mx-auto bg-white rounded-2xl p-8 md:p-12 shadow-sm border border-border text-center">
           <Mail size={48} className="mx-auto text-primary mb-6" />
@@ -485,10 +503,11 @@ export default function Home() {
       <footer className="bg-primary text-primary-foreground py-12">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-xl font-bold mb-4">西田バスケットボールクラブ</h2>
-          <div className="flex justify-center gap-6 mb-8 text-sm opacity-80">
+          <div className="flex justify-center gap-6 mb-8 text-sm opacity-80 flex-wrap">
             <a href="#about" className="hover:text-white hover:underline">クラブについて</a>
             <a href="#activities" className="hover:text-white hover:underline">活動内容</a>
             <a href="#membership" className="hover:text-white hover:underline">入部案内</a>
+            <Link href="/faq" className="hover:text-white hover:underline">よくあるご質問</Link>
             <a href="#contact" className="hover:text-white hover:underline">お問い合わせ</a>
           </div>
           
