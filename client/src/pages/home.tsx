@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "wouter";
 import heroImage from "@assets/IMG_1916_1769216828698.JPG";
 import teamLogo from "@assets/nishita_logo_1768706882993.png";
 import { 
@@ -91,6 +92,7 @@ export default function Home() {
             <NavLink href="#about">クラブ紹介</NavLink>
             <NavLink href="#activities">活動内容</NavLink>
             <NavLink href="#membership">入部案内</NavLink>
+            <Link href="/faq" className="text-foreground/80 hover:text-primary font-medium transition-colors py-2">よくあるご質問</Link>
             <NavLink href="#contact">お問い合わせ</NavLink>
           </nav>
 
@@ -110,6 +112,7 @@ export default function Home() {
             <NavLink href="#about" onClick={() => setIsMenuOpen(false)}>クラブ紹介</NavLink>
             <NavLink href="#activities" onClick={() => setIsMenuOpen(false)}>活動内容</NavLink>
             <NavLink href="#membership" onClick={() => setIsMenuOpen(false)}>入部案内</NavLink>
+            <Link href="/faq" className="text-foreground/80 hover:text-primary font-medium transition-colors py-2" onClick={() => setIsMenuOpen(false)}>よくあるご質問</Link>
             <NavLink href="#contact" onClick={() => setIsMenuOpen(false)}>お問い合わせ</NavLink>
           </div>
         )}
