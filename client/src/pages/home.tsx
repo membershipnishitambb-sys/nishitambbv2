@@ -14,7 +14,8 @@ import {
   Menu,
   X,
   ExternalLink,
-  MessageCircle
+  MessageCircle,
+  MessageCircleQuestion
 } from "lucide-react";
 import { useState } from "react";
 
