@@ -409,16 +409,6 @@ export default function Home() {
               体験を申し込む (公式LINE)
             </a>
 
-            <a 
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdYpui0JOMc1VwNgrHsrTwog-0nIR_znQI60AkoxzFgnzByGg/viewform" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full bg-white text-primary border-2 border-primary font-bold py-4 rounded-xl hover:bg-secondary transition-all flex items-center justify-center gap-2"
-            >
-              <ExternalLink size={20} />
-              入会申し込みフォーム
-            </a>
-
             <p className="text-sm text-muted-foreground pt-2">
               練習試合の依頼、その他ご質問等お気軽にお問い合わせください。
             </p>
