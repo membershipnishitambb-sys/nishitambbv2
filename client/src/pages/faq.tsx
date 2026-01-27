@@ -1,5 +1,6 @@
 import { ChevronLeft, MessageCircleQuestion } from "lucide-react";
 import { Link } from "wouter";
+import { useEffect } from "react";
 
 const faqData = [
   {
@@ -107,6 +108,10 @@ const faqData = [
 ];
 
 export default function FAQ() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-secondary/30 font-sans text-foreground">
       <header className="bg-white border-b border-border sticky top-0 z-10">
@@ -125,7 +130,7 @@ export default function FAQ() {
           <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center text-primary mx-auto mb-4">
             <MessageCircleQuestion size={32} />
           </div>
-          <h2 className="text-3xl font-bold text-primary mb-2">よくある質問</h2>
+          <h2 className="text-3xl font-bold text-primary mb-2">よくあるご質問</h2>
           <p className="text-muted-foreground">
             入部や活動について、保護者の皆様からよくいただく質問をまとめました。
           </p>
