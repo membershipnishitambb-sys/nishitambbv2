@@ -246,9 +246,14 @@ export default function Home() {
                 <span className="font-medium">夕方（高学年のみ）</span>
               </li>
             </ul>
-            <p className="text-xs text-muted-foreground mt-4">
-              ※学校行事や大会等により変更になる場合があります。
-            </p>
+            <div className="mt-4 flex flex-col gap-2">
+              <Link href="/faq" className="text-xs text-primary font-bold hover:underline flex items-center gap-1">
+                詳細な練習時間はこちら <ChevronRight size={14} />
+              </Link>
+              <p className="text-[10px] text-muted-foreground">
+                ※学校行事や大会等により変更になる場合があります。
+              </p>
+            </div>
           </div>
 
           {/* Card 2 */}
@@ -269,16 +274,15 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Card 3 */}
+          {/* Card 3: Affiliated Organizations */}
           <div className="bg-white p-6 rounded-xl shadow-sm border border-border/50 hover:shadow-md transition-shadow">
             <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-4">
-              <Target size={24} />
+              <Shield size={24} />
             </div>
-            <h3 className="text-xl font-bold mb-3 text-primary">大会・イベント</h3>
-            <ul className="space-y-2 text-sm text-muted-foreground list-inside">
-              <li>（1）東京都大会</li>
-              <li>（2）杉並区大会</li>
-              <li>練習試合・合宿など</li>
+            <h3 className="text-xl font-bold mb-3 text-primary">加盟競技団体</h3>
+            <ul className="space-y-2 text-sm text-muted-foreground">
+              <li>- 日本バスケットボール協会</li>
+              <li>- 東京都バスケットボール協会（U12カテゴリー部会）</li>
             </ul>
           </div>
         </div>
@@ -289,14 +293,6 @@ export default function Home() {
             JBA（日本バスケットボール協会）公認コーチ資格を持つ指導者を中心に、 基礎から丁寧に指導します。
             「倫理規範に則した指導」を心がけ、子どもたちが主体的に考え、行動できるバスケットボールを目指しています。
           </p>
-        </div>
-
-        <div className="mt-8 bg-white rounded-xl p-6 border border-border/50 max-w-3xl mx-auto">
-          <h3 className="text-lg font-bold text-primary mb-4 text-center">加盟競技団体</h3>
-          <ul className="space-y-2 text-sm text-muted-foreground text-center">
-            <li>- 日本バスケットボール協会</li>
-            <li>- 東京都バスケットボール協会（U12カテゴリー部会）</li>
-          </ul>
         </div>
       </Section>
 
