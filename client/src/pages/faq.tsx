@@ -8,15 +8,20 @@ const faqData = [
     answer: (
       <div className="space-y-2">
         <div>
-          <p className="font-bold text-sm text-primary/80 underline decoration-primary/20 underline-offset-4">1・2・3年生</p>
-          <p>土・日 8時30分〜9時30分</p>
-          <p className="text-xs">※3年生のみ10時まで</p>
+          <p className="font-bold text-sm text-primary/80 underline decoration-primary/20 underline-offset-4">1・2年生</p>
+          <p>土曜日 8時30分〜10時00分</p>
+          <p>日曜日 8時30分〜9時30分</p>
         </div>
         <div>
-          <p className="font-bold text-sm text-primary/80 underline decoration-primary/20 underline-offset-4">4・5・6年生</p>
-          <p>土 10時〜13時</p>
-          <p>日・祝 10時〜12時30分</p>
-          <p>火 16時30分〜18時15分</p>
+          <p className="font-bold text-sm text-primary/80 underline decoration-primary/20 underline-offset-4">3・4年生</p>
+          <p>土曜日 10時00分〜12時30分</p>
+          <p>日曜日 9時30分〜11時00分</p>
+        </div>
+        <div>
+          <p className="font-bold text-sm text-primary/80 underline decoration-primary/20 underline-offset-4">5・6年生</p>
+          <p>土曜日 13時00分〜16時30分</p>
+          <p>日曜日 11時00分〜12時30分</p>
+          <p>火曜日 16時30分〜18時15分</p>
         </div>
         <p className="text-xs mt-2">※体育館が取りづらい時期は変更する場合があります。</p>
       </div>
@@ -48,7 +53,7 @@ const faqData = [
   },
   {
     question: "試合は遠征しますか？",
-    answer: "2023年10月現在、遠征はあまりなく、杉並区内のチームと試合をすることが多いです。稀に都内で遠くに移動することもあります。(西東京市など)"
+    answer: "杉並区内を始め、区外都内の会場での試合があります。"
   },
   {
     question: "試合時の集合場所はありますか？現地着解散ですか？",

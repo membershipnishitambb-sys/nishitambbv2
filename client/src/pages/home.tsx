@@ -139,7 +139,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight tracking-tight animate-in slide-in-from-bottom-8 fade-in duration-700 delay-200 drop-shadow-lg">
             Enjoy Basketball
             <span className="block text-2xl md:text-3xl mt-4 font-normal opacity-90">
-              楽しく・全力で・考えてプレー！
+              楽しく、正しく、考えて！
             </span>
           </h1>
           <p className="max-w-xl mx-auto text-base md:text-lg opacity-90 mb-10 leading-relaxed drop-shadow-sm animate-in slide-in-from-bottom-8 fade-in duration-700 delay-300">
@@ -179,7 +179,7 @@ export default function Home() {
                   <Users size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-primary mb-1">保護者主体の運営</h3>
+                  <h3 className="font-bold text-primary mb-1">保護者主体の運営体制</h3>
                   <p className="text-sm text-muted-foreground">
                     保護者とボランティアスタッフが協力して運営する任意団体です。
                     アットホームな雰囲気で、子どもたちの成長を見守ります。
@@ -192,10 +192,9 @@ export default function Home() {
                   <Target size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-primary mb-1">対象</h3>
+                  <h3 className="font-bold text-primary mb-1">チームメンバー</h3>
                   <p className="text-sm text-muted-foreground">
-                    近隣の小学校に通う小学生（1年生〜6年生）男女。
-                    初心者から経験者まで幅広く歓迎しています。
+                    杉並区立西田小学校、杉並第二小学校、桃井第二小学校、私立小学校の1〜6年生が在籍しています。
                   </p>
                 </div>
               </div>
@@ -236,7 +235,7 @@ export default function Home() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li className="flex justify-between border-b border-dashed border-border pb-1">
                 <span>土曜日</span>
-                <span className="font-medium">午前</span>
+                <span className="font-medium">午前/午後</span>
               </li>
               <li className="flex justify-between border-b border-dashed border-border pb-1">
                 <span>日曜日</span>
@@ -276,22 +275,28 @@ export default function Home() {
               <Target size={24} />
             </div>
             <h3 className="text-xl font-bold mb-3 text-primary">大会・イベント</h3>
-            <ul className="space-y-2 text-sm text-muted-foreground list-disc list-inside">
-              <li>杉並区民大会</li>
-              <li>東京都ミニバスケットボール連盟主催大会</li>
-              <li>近隣チームとの練習試合</li>
-              <li>夏合宿・お楽しみ会など</li>
+            <ul className="space-y-2 text-sm text-muted-foreground list-inside">
+              <li>（1）東京都大会</li>
+              <li>（2）杉並区大会</li>
+              <li>練習試合・合宿など</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 bg-white rounded-xl p-8 border border-border/50 text-center max-w-3xl mx-auto">
-          <h3 className="text-lg font-bold text-primary mb-2">指導体制について</h3>
+          <h3 className="text-lg font-bold text-primary mb-2">指導体制と内容</h3>
           <p className="text-muted-foreground">
-            JBA（日本バスケットボール協会）公認コーチ資格を持つ指導者を中心に、
-            基礎から丁寧に指導します。
-            「怒鳴らない指導」を心がけ、子どもたちが主体的に考え、動けるバスケットボールを目指しています。
+            JBA（日本バスケットボール協会）公認コーチ資格を持つ指導者を中心に、 基礎から丁寧に指導します。
+            「倫理規範に則した指導」を心がけ、子どもたちが主体的に考え、行動できるバスケットボールを目指しています。
           </p>
+        </div>
+
+        <div className="mt-8 bg-white rounded-xl p-6 border border-border/50 max-w-3xl mx-auto">
+          <h3 className="text-lg font-bold text-primary mb-4 text-center">加盟競技団体</h3>
+          <ul className="space-y-2 text-sm text-muted-foreground text-center">
+            <li>- 日本バスケットボール協会</li>
+            <li>- 東京都バスケットボール協会（U12カテゴリー部会）</li>
+          </ul>
         </div>
       </Section>
 
