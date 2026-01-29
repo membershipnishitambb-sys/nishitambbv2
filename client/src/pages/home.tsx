@@ -179,7 +179,7 @@ export default function Home() {
                   <Users size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-primary mb-1">保護者主体の運営体制</h3>
+                  <h3 className="font-bold text-primary mb-1">運営体制</h3>
                   <p className="text-sm text-muted-foreground">
                     保護者とボランティアスタッフが協力して運営する任意団体です。
                     アットホームな雰囲気で、子どもたちの成長を見守ります。
