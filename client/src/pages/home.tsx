@@ -326,6 +326,10 @@ export default function Home() {
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-green-500"></span>
+                    4年生 女子
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-green-500"></span>
                     5年生 女子
                   </li>
                   <li className="flex items-center gap-2 text-muted-foreground">
