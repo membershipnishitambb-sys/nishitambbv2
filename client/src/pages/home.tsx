@@ -330,7 +330,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-green-500"></span>
-                    5年生 女子
+                    5年生 男子・女子
                   </li>
                   <li className="flex items-center gap-2 text-muted-foreground">
                     <span className="w-2 h-2 rounded-full bg-yellow-500"></span>
