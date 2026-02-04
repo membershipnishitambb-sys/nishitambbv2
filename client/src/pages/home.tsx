@@ -346,7 +346,7 @@ export default function Home() {
               { 
                 step: "01", 
                 title: "お問い合わせ", 
-                desc: "まずはメールフォームから体験希望のご連絡をお願いします。" 
+                desc: "まずはLINEから体験希望のご連絡をお願いします。" 
               },
               { 
                 step: "02", 
