@@ -160,7 +160,9 @@ export default function Home() {
               活動を知る
             </a>
             <a 
-              href="#membership" 
+              href="https://forms.gle/eJMo2154TuqLCQZq6" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 bg-yellow-400 text-primary font-bold rounded-full hover:bg-yellow-300 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               体験会のお知らせ
