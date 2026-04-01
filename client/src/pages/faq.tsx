@@ -80,7 +80,7 @@ const faqData = [
     answer: (
       <div className="space-y-4 text-sm">
         <p>1年生から3年生までは月1,000円、4年生から6年生までは月1,500円かかります。あとスポーツ保険料として800円がかかります。</p>
-        <p>3年生以上はそれ以外にユニフォーム管理費として3,000円を頂戴しており、4年生以上ですと更にJBA登録料として毎年1200円がかかります。</p>
+        <p>3年生以上はそれ以外にユニフォーム管理費として3,000円を頂戴しており、4年生以上ですと更にJBA登録料として毎年1,900円がかかります。</p>
         <p>また、会費は学期ごとに回収しております。ユニフォーム管理料は入会時のみかかります。JBA登録料とスポーツ保険料は年1回です。</p>
         <div className="bg-secondary/50 p-4 rounded-lg space-y-3">
           <p className="font-bold border-b border-primary/10 pb-1">例 1学期入会 (5月～8月分の4 ヶ月分）</p>
@@ -93,8 +93,8 @@ const faqData = [
             <p className="text-xs opacity-80">（会費 月1,000円 x 4ヶ月分＋スポーツ保険料800円/年＋ユニフォーム管理費 3,000円)</p>
           </div>
           <div>
-            <p className="font-bold">〇4年生以上：合計 11,000円</p>
-            <p className="text-xs opacity-80">会費 月1,500円 x 4ヶ月分＋スポーツ保険料800円/年＋JBA登録料1,200円+ユニフォーム管理費3,000円)</p>
+            <p className="font-bold">〇4年生以上：合計 11,700円</p>
+            <p className="text-xs opacity-80">会費 月1,500円 x 4ヶ月分＋スポーツ保険料800円/年＋JBA登録料1,900円+ユニフォーム管理費3,000円)</p>
           </div>
         </div>
         <p className="text-xs">※体験会（4月・9月）の翌月から入会となります。</p>
