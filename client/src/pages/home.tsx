@@ -146,7 +146,7 @@ export default function Home() {
             バスケットボールを通じて、体力・運動能力はもちろん、
             自立心や仲間を思いやる心を育みます。
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center flex-wrap animate-in slide-in-from-bottom-8 fade-in duration-700 delay-400">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in slide-in-from-bottom-8 fade-in duration-700 delay-400">
             <a 
               href="#membership" 
               className="px-8 py-3 bg-white text-primary font-bold rounded-full hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
@@ -158,14 +158,6 @@ export default function Home() {
               className="px-8 py-3 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition-all"
             >
               活動を知る
-            </a>
-            <a 
-              href="https://forms.gle/eJMo2154TuqLCQZq6" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-3 bg-yellow-400 text-primary font-bold rounded-full hover:bg-yellow-300 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-            >
-              体験会のお知らせ
             </a>
           </div>
         </div>
