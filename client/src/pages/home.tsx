@@ -342,7 +342,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-center gap-2 text-muted-foreground">
                     <span className="w-2 h-2 rounded-full bg-yellow-500"></span>
-                    その他学年は応相談
+                    その他は応相談
                   </li>
                 </ul>
               </div>
