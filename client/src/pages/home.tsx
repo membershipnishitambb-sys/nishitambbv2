@@ -340,10 +340,6 @@ export default function Home() {
                     <span className="w-2 h-2 rounded-full bg-green-500"></span>
                     6年生 男子・女子
                   </li>
-                  <li className="flex items-center gap-2 text-muted-foreground">
-                    <span className="w-2 h-2 rounded-full bg-yellow-500"></span>
-                    その他は応相談
-                  </li>
                 </ul>
               </div>
             </div>
